@@ -1,0 +1,141 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.menu {
+	width: 100%;
+	height: 65px;
+	background: #f7f7f7;
+}
+
+ul{
+	list-style: none;
+}
+li {
+	display: list-item;
+	text-align: -webkit-match-parent;
+}
+
+.tudo {
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+a {
+	color: #37acc2;
+	text-decoration: none;
+}
+.mensagem {
+	width: 100%;
+	height: 330px;
+	background: #37acc2;
+}
+h1 {
+	font-size: 76px;
+	font-weight: 800;
+	color: #fff;
+}
+.mensagem p {
+	margin: 10px 0;
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+}
+h2 {
+	font-size: 34px;
+	font-weight: 700;
+	padding: 0 0 10px;
+	text-align: center;
+}
+.destaques li {
+	position: relative;
+	top: 0;
+	width: 225px;
+	display: inline-block;
+	margin: 40px 10px 0;
+}
+.destaques figure {
+	width: 135px;
+	height: 130px;
+	margin: 0 auto;
+	display: block;
+	position: relative;
+	border-radius: 50%;
+}
+.destaques figure {
+	background: #37acc2;
+}
+
+h4 {
+	font-size: 34px;
+	font-weight: 400;
+	text-align: center;
+	color: #777;
+	margin: 5px 0;
+}
+.destaques p {
+	font-size: 14px;
+	text-align: justify;
+}
+.inscreva {
+	border-top: 1px solid #ddd;
+	width: 100%;
+	height: 185px;
+	padding: 40px 0 70px;
+	position: relative;
+}
+h3 {
+	font-size: 48px;
+	font-weight: 600;
+	color: #16454e;
+	font-size: 72px;
+	text-align: center;
+}
+.inscreva p {	
+	font-size: 17px;
+	color: #16454e;
+}
+input[type="email"] {
+	display: block;
+	padding: 8px 10px;
+	width: 500px;
+	height: 35px;
+	border: 1px solid #D1D2D3;
+	background: #fff;
+	border-radius: 6px;
+	-moz-box-shadow: inset 2px 2px 11px 0 #dbddde;
+	-webkit-box-shadow: inset 2px 2px 11px 0 #dbddde;
+	box-shadow: inset 2px 2px 11px 0 #dbddde;
+
+}
+
+input[type="submit"] {
+	display: block;
+	float: left;
+	width: 150px;
+	border-radius: 6px;
+	height: 50px;
+	font-size: 21px;
+	font-weight: 900;
+	display: block;
+	cursor: pointer;
+	background-color: #37acc2;
+}
+.para_esq{
+	margin: 0 0 0 140px;
+}
+.para_o_form{
+	margin: 5px;
+	text-align: center;
+}
+.para_o_form h4{
+	margin: 0;
+}
+footer {
+	width: 100%;
+	background: #777;
+	padding: 50px 0 30px 0;
+	float: left;
+}
+
