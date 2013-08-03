@@ -1,3 +1,4 @@
+/*Cores terriveis mais depois trato disso!*/
 *{
 	padding: 0;
 	margin: 0;
@@ -8,7 +9,9 @@
 	height: 65px;
 	background: #f7f7f7;
 }
-
+.content{
+	margin:0;
+}
 ul{
 	list-style: none;
 }
@@ -18,9 +21,10 @@ li {
 }
 
 .tudo {
+	position: relative;
 	width: 1000px;
 	margin: 0 auto;
-	position: relative;
+	
 }
 a {
 	color: #37acc2;
@@ -79,7 +83,7 @@ h4 {
 	text-align: justify;
 }
 .inscreva {
-	border-top: 1px solid #ddd;
+	background-color: #c7c7c7;
 	width: 100%;
 	height: 185px;
 	padding: 40px 0 70px;
@@ -95,9 +99,13 @@ h3 {
 .inscreva p {	
 	font-size: 17px;
 	color: #16454e;
+	margin: 0 0 0 10px;
+}
+.para_figuras{
+	border-top: 1px solid #fff;
+	background-color: #c7c7c7;
 }
 input[type="email"] {
-	display: block;
 	padding: 8px 10px;
 	width: 500px;
 	height: 35px;
@@ -111,7 +119,6 @@ input[type="email"] {
 }
 
 input[type="submit"] {
-	display: block;
 	float: left;
 	width: 150px;
 	border-radius: 6px;
